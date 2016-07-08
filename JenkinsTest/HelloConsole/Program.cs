@@ -10,8 +10,11 @@ namespace HelloConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Helloworld!");
-
+#if DEBUG
+            Console.WriteLine("Hello Debug World!");
+#else
+            Console.WriteLine("Hello Release World!");
+#endif
             Console.ReadKey();
         }
     }
