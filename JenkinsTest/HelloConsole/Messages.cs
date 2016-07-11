@@ -22,7 +22,8 @@ namespace HelloConsole
 
         public string GetMessage(object obj)
         {
-            return $"obj is {obj}";
+            //return $"obj is {obj}";
+            return string.Format("obj is {0}", obj);
         }
     }
 }
