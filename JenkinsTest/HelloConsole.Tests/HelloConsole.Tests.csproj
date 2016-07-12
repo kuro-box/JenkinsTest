@@ -50,6 +50,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="..\HelloConsole\ShortcutTest.cs">
+      <Link>ShortcutTest.cs</Link>
+    </Compile>
     <Compile Include="MessagesTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeExtensionsTests.cs" />
