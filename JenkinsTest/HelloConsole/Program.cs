@@ -8,10 +8,10 @@ namespace HelloConsole
 {
     class Program
     {
-        //
+        
         static void Main(string[] args)
         {
-            //
+            
             Messages.HelloMessage.Print();
 
             Console.ReadKey();
