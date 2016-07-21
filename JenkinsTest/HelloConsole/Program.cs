@@ -11,6 +11,7 @@ namespace HelloConsole
         //
         static void Main(string[] args)
         {
+            //
             Messages.HelloMessage.Print();
 
             Console.ReadKey();
